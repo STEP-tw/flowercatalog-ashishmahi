@@ -138,3 +138,1245 @@ BODY=> undefined
 GET /css/flowers.css
 COOKIES=> undefined
 BODY=> undefined
+------------------------------
+GET /index.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /resource/freshorigins.jpg
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /resource/animated-flower-image-0021.gif
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /index.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /index.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /resource/freshorigins.jpg
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /resource/animated-flower-image-0021.gif
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /abeliophyllum.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /resource/pbase-Abeliophyllum.jpg
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /index.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /resource/freshorigins.jpg
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /resource/animated-flower-image-0021.gif
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+POST /login
+COOKIES=> {}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> undefined
+------------------------------
+POST /login
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> undefined
+------------------------------
+GET /login
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> undefined
