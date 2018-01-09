@@ -1,3 +1,9 @@
+const querystring = require('querystring');
+
+const parseQuery = function(query){
+  return querystring.parse(query);
+}
+
 const toKeyValue = kv=>{
     let parts = kv.split('=');
     return {key:parts[0].trim(),value:parts[1].trim()};
@@ -56,7 +62,7 @@ const main = function(req,res){
     let content="";
     req.on('data',data=>content+=data.toString());
     req.on('end',()=>{
-      req.body = parseBody(content);
+      req.body = parseQuery(content);
       content="";
     this._preprocess.forEach(middleware=>{
       if(res.finished) return;

@@ -2,9 +2,10 @@ const webApp = require('./webApp.js');
 const http = require('http');
 const fs = require('fs');
 const storeComment = require('./lib/storeComment.js').dealWithQuery;
-const parseBody = require("./webApp.js").parseBody;
 let app = webApp.create();
+
 let toS = o => JSON.stringify(o, null, 2);
+
 const logRequest = (req, res) => {
   let text = ['------------------------------',
     `${req.method} ${req.url}`,
@@ -113,13 +114,6 @@ app.addPostProcessor(fileServer);
 app.addPostProcessor(requestNotFound);
 
 app.post("/add-comment", (req, res) => {
-  let postData = "";
-  // req.on("data",(chunk)=>{
-  //   postData+= chunk;
-  // })
-  // req.on("end",()=>{
-  //   storeComment(postData);
-  // })
   res.redirect("/guestPage.html");
 })
 
