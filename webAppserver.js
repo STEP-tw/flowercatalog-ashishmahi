@@ -43,15 +43,11 @@ const isPost = function(req){
   return req.method == "POST";
 }
 //
-let redirectLoggedInUserToHome = (req,res)=>{
-  if(req.user){
-    if(req.url=="/login"){
-      res.redirect("/addComment.html");
-    }else if(req.url=="/add-comment"){
+let allowLoggedInUsersComment = (req,res)=>{
+  if(req.user&&req.url=="/add-comment"){
       storeComment(req.body);
       res.redirect('/guestPage.html');
     }
-  }
 }
 
 let redirectLoggedOutUserToLogin = (req,res)=>{
@@ -60,9 +56,19 @@ let redirectLoggedOutUserToLogin = (req,res)=>{
   }
 }
 
+let redirectLoggedInUserToAddComment = function(req,res){
+  if(req.user&&req.url=="/login") res.redirect("/addComment.html");
+}
+
 app.get('/login',(req,res)=>{
   res.setHeader('Content-type','text/html');
   res.redirect("/login.html");
+});
+
+app.get('/logout',(req,res)=>{
+  // res.setHeader('Set-Cookie',[`loginFailed=false,Expires=${new Date(1).toUTCString()}`,`sessionid=0,Expires=${new Date(1).toUTCString()}`]);
+  delete req.user.sessionid;
+  res.redirect('/login');
 });
 
 app.post('/login',(req,res)=>{
@@ -101,7 +107,8 @@ app.get("/",(req,res)=>{
 app.use(logRequest);
 app.use(loadUser);
 app.use(redirectLoggedOutUserToLogin);
-app.use(redirectLoggedInUserToHome);
+app.use(redirectLoggedInUserToAddComment);
+app.use(allowLoggedInUsersComment);
 app.addPostProcessor(fileServer);
 app.addPostProcessor(requestNotFound);
 
