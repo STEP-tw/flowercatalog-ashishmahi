@@ -1,1382 +1,1364 @@
 ------------------------------
-GET /
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
 GET /index.html
-COOKIES=> undefined
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "upgrade-insecure-requests": "1",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /css/flowers.css
-COOKIES=> undefined
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /resource/freshorigins.jpg
-COOKIES=> undefined
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /resource/animated-flower-image-0021.gif
-COOKIES=> undefined
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /favicon.ico
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /resource/freshorigins.jpg
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /resource/animated-flower-image-0021.gif
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /index.html
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /index.html
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /resource/freshorigins.jpg
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /resource/animated-flower-image-0021.gif
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /index.html
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /resource/freshorigins.jpg
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /resource/animated-flower-image-0021.gif
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> undefined
-BODY=> undefined
-------------------------------
-GET /index.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /resource/freshorigins.jpg
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /resource/animated-flower-image-0021.gif
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /index.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /comments.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-POST /add-comment
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /index.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /resource/freshorigins.jpg
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /resource/animated-flower-image-0021.gif
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /abeliophyllum.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /resource/pbase-Abeliophyllum.jpg
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/abeliophyllum.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/abeliophyllum.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/abeliophyllum.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /index.html
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/abeliophyllum.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /resource/freshorigins.jpg
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /resource/animated-flower-image-0021.gif
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /guestPage.html
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /css/flowers.css
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /js/updateComments.js
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /comments.html
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 POST /add-comment
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "content-length": "24",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:5000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {
+  "name": "ashish",
+  "comment": "mahi"
+}
 ------------------------------
 GET /login
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 GET /favicon.ico
-COOKIES=> {}
-BODY=> undefined
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/login",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+GET /guestPage.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "upgrade-insecure-requests": "1",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/index.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+GET /js/updateComments.js
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+GET /comments.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+POST /add-comment
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "content-length": "22",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:5000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {
+  "name": "ashish",
+  "comment": "hd"
+}
+------------------------------
+GET /login
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
+------------------------------
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/login",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
+COOKIES=> {
+  "logInFailed": "true"
+}
+BODY=> {}
 ------------------------------
 POST /login
-COOKIES=> {}
-BODY=> undefined
-------------------------------
-GET /login
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "content-length": "27",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "upgrade-insecure-requests": "1",
+  "origin": "http://localhost:5000",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/login",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true"
+}
 COOKIES=> {
   "logInFailed": "true"
 }
-BODY=> undefined
+BODY=> {
+  "userName": "ashishm",
+  "place": "mahi"
+}
+------------------------------
+GET /guestPage.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "upgrade-insecure-requests": "1",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/login",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /js/updateComments.js
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /comments.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
 ------------------------------
 GET /favicon.ico
-COOKIES=> {
-  "logInFailed": "true"
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
 }
-BODY=> undefined
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+POST /add-comment
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "content-length": "24",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:5000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {
+  "name": "ashish",
+  "comment": "mahi"
+}
+------------------------------
+GET /guestPage.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /js/updateComments.js
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /comments.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+POST /add-comment
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "content-length": "22",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:5000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {
+  "name": "ashish",
+  "comment": "ah"
+}
+------------------------------
+GET /guestPage.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /js/updateComments.js
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /comments.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+POST /add-comment
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "content-length": "20",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:5000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {
+  "name": "ds",
+  "comment": "slkv"
+}
+------------------------------
+GET /guestPage.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /js/updateComments.js
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /comments.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /guestPage.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "upgrade-insecure-requests": "1",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /js/updateComments.js
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /comments.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+POST /add-comment
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "content-length": "24",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:5000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {
+  "name": "ashish",
+  "comment": "mahi"
+}
+------------------------------
+GET /login
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
+------------------------------
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/login",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {}
 ------------------------------
 POST /login
-COOKIES=> {
-  "logInFailed": "true"
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "content-length": "27",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:5000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/login",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515492928951"
 }
-BODY=> undefined
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515492928951"
+}
+BODY=> {
+  "userName": "ashishm",
+  "place": "mahi"
+}
 ------------------------------
-GET /login
-COOKIES=> {
-  "logInFailed": "true"
+GET /guestPage.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/login",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
 }
-BODY=> undefined
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}
+------------------------------
+GET /js/updateComments.js
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}
+------------------------------
+GET /comments.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}
 ------------------------------
 GET /favicon.ico
-COOKIES=> {
-  "logInFailed": "true"
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
 }
-BODY=> undefined
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}
+------------------------------
+POST /add-comment
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "content-length": "22",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:5000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {
+  "name": "kjfv",
+  "comment": "askj"
+}
+------------------------------
+GET /guestPage.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}
+------------------------------
+GET /css/flowers.css
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}
+------------------------------
+GET /js/updateComments.js
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}
+------------------------------
+GET /comments.html
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}
+------------------------------
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:5000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:5000/guestPage.html",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9",
+  "cookie": "logInFailed=true; sessionid=1515493020437"
+}
+COOKIES=> {
+  "logInFailed": "true",
+  "sessionid": "1515493020437"
+}
+BODY=> {}

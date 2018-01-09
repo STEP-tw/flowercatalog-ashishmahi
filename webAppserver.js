@@ -8,8 +8,9 @@ let toS = o => JSON.stringify(o, null, 2);
 const logRequest = (req, res) => {
   let text = ['------------------------------',
     `${req.method} ${req.url}`,
+    `HEADERS=> ${toS(req.headers)}`,
     `COOKIES=> ${toS(req.cookies)}`,
-    `BODY=> ${toS(req.body)}`, ''
+    `BODY=> ${toS(req.loginDetails)}`, ''
   ].join('\n');
   fs.appendFile('./data/requestLogs.txt', text, () => {});
   console.log(`${req.method} ${req.url}`);
@@ -43,14 +44,15 @@ const isPost = function(req){
 }
 //
 let redirectLoggedInUserToHome = (req,res)=>{
-  if(req.urlIsOneOf(["/add-comment"]) && req.user) res.redirect('/guestPage.html');
+  if(req.urlIsOneOf(["/add-comment",'/login']) && req.user) res.redirect('/guestPage.html');
 }
 
 let redirectLoggedOutUserToLogin = (req,res)=>{
-  if(req.urlIsOneOf(['/add-comment']) && !req.user && isPost(req)){
+  if(req.urlIsOneOf(['/add-comment']) && !req.user){
     res.redirect('/login');
   }
 }
+
 app.get('/login',(req,res)=>{
   res.setHeader('Content-type','text/html');
   if(req.cookies.logInFailed) res.write('<p>logIn Failed</p>');
@@ -59,24 +61,14 @@ app.get('/login',(req,res)=>{
 });
 
 app.post('/login',(req,res)=>{
-  let content="";
-  req.on('data',data=>{
-    console.log(data.toString());
-    content+=data.toString();
-  });
-  req.on('end',()=>{
-    req.body = parseBody(content);
-    content="";
-  });
-  if(req.body){
-    var user = registered_users.find(u=>u.userName==req.body.userName);
-  }
+  let user = registered_users.find(u=>u.userName==req.loginDetails.userName);
   if(!user) {
     res.setHeader('Set-Cookie',`logInFailed=true`);
     res.redirect('/login');
     return;
   }
-  let sessionid = Date().getTime();
+  let date = new Date();
+  let sessionid = date.getTime();
   res.setHeader('Set-Cookie',`sessionid=${sessionid}`);
   user.sessionid = sessionid;
   res.redirect('/guestPage.html');
@@ -102,6 +94,7 @@ app.get("/",(req,res)=>{
 })
 
 app.use(logRequest);
+app.use(loadUser);
 app.use(redirectLoggedOutUserToLogin);
 app.use(redirectLoggedInUserToHome);
 app.addPostProcessor(fileServer);

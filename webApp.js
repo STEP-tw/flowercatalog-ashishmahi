@@ -52,12 +52,13 @@ const main = function(req,res){
   res.redirect = redirect.bind(res);
   req.urlIsOneOf = urlIsOneOf.bind(req);
   req.cookies = parseCookies(req.headers.cookie||'');
-  // let content="";
-  // req.on('data',data=>content+=data.toString());
-  // req.on('end',()=>{
-  //   req.body = parseBody(content);
-  //   content="";
-  // });
+  debugger;
+    let content="";
+    req.on('data',data=>content+=data.toString());
+    req.on('end',()=>{
+      console.log(content);
+      req.loginDetails = parseBody(content);
+      content="";
     this._preprocess.forEach(middleware=>{
       if(res.finished) return;
       middleware(req,res);
@@ -70,6 +71,7 @@ const main = function(req,res){
         fn(req,res)
       })
     }
+    });
 };
 
 let create = ()=>{
