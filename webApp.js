@@ -56,8 +56,11 @@ const main = function(req,res){
     let content="";
     req.on('data',data=>content+=data.toString());
     req.on('end',()=>{
-      console.log(content);
-      req.loginDetails = parseBody(content);
+      if(req.url=="/add-comment"){
+        req.commentDetails  = content;
+      }else {
+        req.body = parseBody(content);
+      }
       content="";
     this._preprocess.forEach(middleware=>{
       if(res.finished) return;

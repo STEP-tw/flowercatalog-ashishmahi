@@ -10,7 +10,7 @@ const logRequest = (req, res) => {
     `${req.method} ${req.url}`,
     `HEADERS=> ${toS(req.headers)}`,
     `COOKIES=> ${toS(req.cookies)}`,
-    `BODY=> ${toS(req.loginDetails)}`, ''
+    `BODY=> ${toS(req.body)}`, ''
   ].join('\n');
   fs.appendFile('./data/requestLogs.txt', text, () => {});
   console.log(`${req.method} ${req.url}`);
@@ -44,7 +44,10 @@ const isPost = function(req){
 }
 //
 let redirectLoggedInUserToHome = (req,res)=>{
-  if(req.urlIsOneOf(["/add-comment",'/login']) && req.user) res.redirect('/guestPage.html');
+  if(req.urlIsOneOf(["/add-comment"]) && req.user){
+    storeComment(req.commentDetails);
+    res.redirect('/guestPage.html');
+  }
 }
 
 let redirectLoggedOutUserToLogin = (req,res)=>{
@@ -55,13 +58,11 @@ let redirectLoggedOutUserToLogin = (req,res)=>{
 
 app.get('/login',(req,res)=>{
   res.setHeader('Content-type','text/html');
-  if(req.cookies.logInFailed) res.write('<p>logIn Failed</p>');
-  res.write('<form method="post"> <input name="userName"><input name="place"> <input type="submit"></form>');
-  res.end();
+  res.redirect("/login.html");
 });
 
 app.post('/login',(req,res)=>{
-  let user = registered_users.find(u=>u.userName==req.loginDetails.userName);
+  let user = registered_users.find(u=>u.userName==req.body.userName);
   if(!user) {
     res.setHeader('Set-Cookie',`logInFailed=true`);
     res.redirect('/login');
@@ -71,6 +72,9 @@ app.post('/login',(req,res)=>{
   let sessionid = date.getTime();
   res.setHeader('Set-Cookie',`sessionid=${sessionid}`);
   user.sessionid = sessionid;
+  // if(req.url=="/add-comment"&&req.method=="POST"){
+  //   storeComment(req.body);
+  // }
   res.redirect('/guestPage.html');
 });
 
@@ -100,11 +104,12 @@ app.use(redirectLoggedInUserToHome);
 app.addPostProcessor(fileServer);
 app.addPostProcessor(requestNotFound);
 app.post("/add-comment", (req, res) => {
-  let postData = "";
-  req.on("data", (chunk) => {
-    postData += chunk
-  })
-  req.on("end", () => storeComment(postData.toString()));
+  // let postData = "";
+  storeComment(req.commentDetails);
+  // req.on("data", (chunk) => {
+  //   postData += chunk
+  // })
+  // req.on("end", () => storeComment(postData.toString()));
   res.redirect("/guestPage.html");
 })
 
