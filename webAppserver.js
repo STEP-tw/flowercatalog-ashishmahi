@@ -44,9 +44,13 @@ const isPost = function(req){
 }
 //
 let redirectLoggedInUserToHome = (req,res)=>{
-  if(req.urlIsOneOf(["/add-comment"]) && req.user){
-    storeComment(req.commentDetails);
-    res.redirect('/guestPage.html');
+  if(req.user){
+    if(req.url=="/login"){
+      res.redirect("/addComment.html");
+    }else if(req.url=="/add-comment"){
+      storeComment(req.body);
+      res.redirect('/guestPage.html');
+    }
   }
 }
 
@@ -72,10 +76,7 @@ app.post('/login',(req,res)=>{
   let sessionid = date.getTime();
   res.setHeader('Set-Cookie',`sessionid=${sessionid}`);
   user.sessionid = sessionid;
-  // if(req.url=="/add-comment"&&req.method=="POST"){
-  //   storeComment(req.body);
-  // }
-  res.redirect('/guestPage.html');
+  res.redirect('/addComment.html');
 });
 
 
@@ -103,13 +104,15 @@ app.use(redirectLoggedOutUserToLogin);
 app.use(redirectLoggedInUserToHome);
 app.addPostProcessor(fileServer);
 app.addPostProcessor(requestNotFound);
+
 app.post("/add-comment", (req, res) => {
-  // let postData = "";
-  storeComment(req.commentDetails);
-  // req.on("data", (chunk) => {
-  //   postData += chunk
+  let postData = "";
+  // req.on("data",(chunk)=>{
+  //   postData+= chunk;
   // })
-  // req.on("end", () => storeComment(postData.toString()));
+  // req.on("end",()=>{
+  //   storeComment(postData);
+  // })
   res.redirect("/guestPage.html");
 })
 
