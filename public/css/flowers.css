@@ -1,0 +1,60 @@
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.subheading{
+  font-size: 30px;
+  margin-left: 1000px;
+  color: #fcc55a
+}
+
+#leaveComment{
+  margin-left: 100px;
+  font-size: 35px;
+}
+
+.flowerImage {
+  margin-left: 50px;
+}
+
+.linksToFlowers {
+  margin-left: 1200px;
+  margin-top: -600px;
+  font-size: 20px;
+}
+
+#watering {
+  margin-bottom: -100px;
+  margin-left: 100px;
+}
+
+.flower {
+  height: 600px;
+}
+
+#abeliophyllumInfo{
+  text-align: justify;
+  margin-left:500px;
+  margin-top: -400px;
+  font-size: 20px;
+}
+
+#ageratumInfo{
+  text-align: justify;
+  margin-left:850px;
+  margin-right: 10px;
+  margin-top: -400px;
+  font-size: 20px;
+}
+
+#submitButton{
+  height: 20px;
+  width: 80px;
+}
+
+object{
+  height: 500px;
+  width: 500px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flower Catalog</title>
+    <script type="text/javascript">
+      const hideImage = function(){
+        let image = document.getElementById("watering");
+        image.style.visibility = "hidden";
+        setTimeout(function(){
+          image.style.visibility = "visible";
+        },1000);
+      }
+    </script>
+    <link rel="stylesheet" href="css/flowers.css">
+  </head>
+  <body>
+    <div class="Flowers">
+      <p class="heading">Flower Catalog Website</p>
+      <hr>
+      <p class="subheading">Flower Catalog </p>
+      <hr>
+      <div class="flowerImage">
+        <img  src="resource/freshorigins.jpg" alt="">
+      </div>
+      <div class="linksToFlowers">
+        <ul>
+          <li> <a href="abeliophyllum.html">Abeliophyllum</a></li>
+          <li> <a href="ageratum.html">Ageratum</a></li>
+          <img id="watering" onclick="hideImage()" src="resource/animated-flower-image-0021.gif" alt="">
+          <li> <a href="guestPage.html">Guest Book</a> </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

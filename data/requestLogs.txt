@@ -1,0 +1,140 @@
+------------------------------
+GET /
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /index.html
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /resource/freshorigins.jpg
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /resource/animated-flower-image-0021.gif
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /resource/freshorigins.jpg
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /resource/animated-flower-image-0021.gif
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /index.html
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /index.html
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /resource/freshorigins.jpg
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /resource/animated-flower-image-0021.gif
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+POST /add-comment
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /guestPage.html
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /js/updateComments.js
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /comments.html
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /favicon.ico
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /index.html
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /resource/freshorigins.jpg
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /resource/animated-flower-image-0021.gif
+COOKIES=> undefined
+BODY=> undefined
+------------------------------
+GET /css/flowers.css
+COOKIES=> undefined
+BODY=> undefined

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Guest Page</title>
+    <link rel="stylesheet" href="css/flowers.css">
+    <script src="js/updateComments.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="">
+      <p class="heading" style="color: #f2b744;font-family: sans-serif" ><a href="index.html"><<</a>Guest</p>
+      <hr>
+      <p> <strong id="leaveComment">Leave a comment</strong> </p>
+      <form method="post" action="add-comment" >
+        Name: <input type="text" name="name" required value="">
+        <br>
+        <br>
+        Comment:<textarea name="comment" rows="5" cols="40"></textarea>
+        <br>
+        <input type="submit" name="" value="submit">
+      </form>
+      <hr>
+      <div class="" id="comments">
+        <object type="text/html" data="comments.html">
+
+        </object>
+      </div>
+    </div>
+  </body>
+</html>
