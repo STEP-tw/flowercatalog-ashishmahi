@@ -2,6 +2,9 @@ const webApp = require('./webApp.js');
 const http = require('http');
 const fs = require('fs');
 const storeComment = require('./lib/storeComment.js').dealWithQuery;
+let guestPage = fs.readFileSync("public/guestPage.html","utf8");
+let addCommentForm = fs.readFileSync("public/commentForm.html","utf8");
+let loginLink = `<a id="login" href="login">login to add comments</a>`
 let app = webApp.create();
 
 let toS = o => JSON.stringify(o, null, 2);
@@ -47,18 +50,26 @@ const isPost = function(req){
 let allowLoggedInUsersComment = (req,res)=>{
   if(req.user&&req.url=="/add-comment"){
       storeComment(req.body);
-      res.redirect('/guestPage.html');
+      res.redirect('/guestPage');
     }
 }
 
-let redirectLoggedOutUserToLogin = (req,res)=>{
-  if(req.urlIsOneOf(['/add-comment']) && !req.user){
-    res.redirect('/login');
+let showLoginLinkToLoggedInUser = (req,res)=>{
+  if(req.urlIsOneOf(['/add-comment','/guestPage']) && !req.user){
+    let guestBook = guestPage;
+    guestBook = guestBook.replace("placeHolder",loginLink);
+    res.write(guestBook);
+    res.end();
   }
 }
 
-let redirectLoggedInUserToAddComment = function(req,res){
-  if(req.user&&req.url=="/login") res.redirect("/addComment.html");
+let showCommentFormToLoggedInUser = function(req,res){
+  if(req.user && req.urlIsOneOf(['/guestPage','/login'])){
+    let guestBook = guestPage;
+    guestBook = guestBook.replace('placeHolder',addCommentForm);
+    res.write(guestBook);
+    res.end();
+  }
 }
 
 app.get('/login',(req,res)=>{
@@ -67,9 +78,9 @@ app.get('/login',(req,res)=>{
 });
 
 app.get('/logout',(req,res)=>{
-  // res.setHeader('Set-Cookie',[`loginFailed=false,Expires=${new Date(1).toUTCString()}`,`sessionid=0,Expires=${new Date(1).toUTCString()}`]);
-  delete req.user.sessionid;
-  res.redirect('/login');
+  res.setHeader('Set-Cookie',[`loginFailed=false,Expires=${new Date(1).toUTCString()}`,`sessionid=0,Expires=${new Date(1).toUTCString()}`]);
+  if(req.user) delete req.user.sessionid;
+  res.redirect('/guestPage');
 });
 
 app.post('/login',(req,res)=>{
@@ -83,7 +94,7 @@ app.post('/login',(req,res)=>{
   let sessionid = date.getTime();
   res.setHeader('Set-Cookie',`sessionid=${sessionid}`);
   user.sessionid = sessionid;
-  res.redirect('/addComment.html');
+  res.redirect('/guestPage');
 });
 
 
@@ -105,17 +116,18 @@ app.get("/",(req,res)=>{
   res.redirect("index.html");
 })
 
+app.post("/add-comment", (req, res) => {
+  res.redirect("/guestPage");
+})
+
 app.use(logRequest);
 app.use(loadUser);
-app.use(redirectLoggedOutUserToLogin);
-app.use(redirectLoggedInUserToAddComment);
+app.use(showLoginLinkToLoggedInUser);
+app.use(showCommentFormToLoggedInUser);
 app.use(allowLoggedInUsersComment);
 app.addPostProcessor(fileServer);
 app.addPostProcessor(requestNotFound);
 
-app.post("/add-comment", (req, res) => {
-  res.redirect("/guestPage.html");
-})
 
 const PORT = 5000;
 let server = http.createServer(app);
