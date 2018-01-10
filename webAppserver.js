@@ -22,10 +22,6 @@ const logRequest = (req, res) => {
 
 let registered_users = [{userName:'ashishm',name:'ashish mahindrakar'}];
 
-const isFileRenderable = function(path){
-  return fs.existsSync(path)
-}
-
 const isGetRequest = function(req){
   return req.method=="GET";
 }
@@ -43,11 +39,12 @@ let loadUser = (req,res)=>{
     req.user = user;
   }
 };
+
 const isPost = function(req){
   return req.method == "POST";
 }
-//
-let allowLoggedInUsersComment = (req,res)=>{
+
+let storeCommentAndRedirectToGuestPage = (req,res)=>{
   if(req.user&&req.url=="/add-comment"){
       storeComment(req.body);
       res.redirect('/guestPage');
@@ -126,7 +123,7 @@ app.use(logRequest);
 app.use(loadUser);
 app.use(showLoginLinkToLoggedInUser);
 app.use(showCommentFormToLoggedInUser);
-app.use(allowLoggedInUsersComment);
+app.use(storeCommentAndRedirectToGuestPage);
 app.addPostProcessor(fileServer);
 app.addPostProcessor(requestNotFound);
 
