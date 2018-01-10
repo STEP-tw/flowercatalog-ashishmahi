@@ -58,6 +58,7 @@ let showLoginLinkToLoggedInUser = (req,res)=>{
   if(req.urlIsOneOf(['/add-comment','/guestPage']) && !req.user){
     let guestBook = guestPage;
     guestBook = guestBook.replace("placeHolder",loginLink);
+    guestBook = guestBook.replace('userName',"");
     res.write(guestBook);
     res.end();
   }
@@ -67,6 +68,7 @@ let showCommentFormToLoggedInUser = function(req,res){
   if(req.user && req.urlIsOneOf(['/guestPage','/login'])){
     let guestBook = guestPage;
     guestBook = guestBook.replace('placeHolder',addCommentForm);
+    guestBook = guestBook.replace('userName',req.user.name);
     res.write(guestBook);
     res.end();
   }
@@ -78,9 +80,9 @@ app.get('/login',(req,res)=>{
 });
 
 app.get('/logout',(req,res)=>{
-  res.setHeader('Set-Cookie',[`loginFailed=false,Expires=${new Date(1).toUTCString()}`,`sessionid=0,Expires=${new Date(1).toUTCString()}`]);
+  res.setHeader('Set-Cookie', [`logInFailed=false;Expires=${new Date(1).toUTCString()}`, `sessionid=0;Expires=${new Date(1).toUTCString()}`]);
   if(req.user) delete req.user.sessionid;
-  res.redirect('/guestPage');
+  res.redirect('/');
 });
 
 app.post('/login',(req,res)=>{
