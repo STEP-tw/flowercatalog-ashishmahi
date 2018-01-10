@@ -2,7 +2,7 @@ const webApp = require('./webApp.js');
 const http = require('http');
 const fs = require('fs');
 const storeComment = require('./lib/storeComment.js').dealWithQuery;
-let guestPage = fs.readFileSync("public/guestPage.html","utf8");
+let guestPage = fs.readFileSync("dynamicContent/guestPage.html","utf8");
 let addCommentForm = fs.readFileSync("public/commentForm.html","utf8");
 let loginLink = `<a id="login" href="login">login to add comments</a>`
 let app = webApp.create();
